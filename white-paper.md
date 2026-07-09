@@ -5,7 +5,13 @@
 **Version:** 1.1  
 **Date:** July 2026  
 **Classification:** Public — For Policy, Banking, Research & Implementation Use  
-**Prepared for:** State Bank of Pakistan, Ministry of Finance, Commercial Banks, Fintechs, Academia & Development Partners
+
+**Author:** Muhammad Ammar Jamshed — [LinkedIn](https://www.linkedin.com/in/goto-resumemuhammad-ammar-jamshed-029280145/)  
+**Capacity:** Independent researcher and policy author  
+
+**Prepared for:** State Bank of Pakistan, Ministry of Finance, Commercial Banks, Fintechs, Academia & Development Partners *(as prospective stakeholders — not as affiliated institutions)*
+
+> **Independence notice:** This white paper is the independent work of the author named above. It is **not** produced, commissioned, endorsed, or reviewed by the State Bank of Pakistan, the Government of Pakistan, any bank, fintech, or other organisation referenced herein. All views, estimates, and recommendations are the author's own.
 
 ---
 
@@ -13,6 +19,8 @@
 
 | Field | Detail |
 |-------|--------|
+| **Author** | Muhammad Ammar Jamshed ([LinkedIn](https://www.linkedin.com/in/goto-resumemuhammad-ammar-jamshed-029280145/)) |
+| **Author capacity** | Independent — no organisational affiliation |
 | **Program Name** | Eidi Digital Bond Program (EDBP) |
 | **Instrument** | Eidi Digital Bond (EDB) |
 | **Proposed Issuer** | Government of Pakistan (via SBP / CDNS) |
@@ -1217,9 +1225,10 @@ This section documents **every category of statistic** used in this paper, how i
 
 ---
 
-**Disclaimer:** This white paper is an independent policy analysis prepared for discussion purposes. It does not represent the views of the State Bank of Pakistan, Government of Pakistan, or any commercial institution. All projections are estimates based on publicly available data and should be validated through formal feasibility study before implementation.
+**Disclaimer:** This white paper is an independent policy analysis prepared by **Muhammad Ammar Jamshed** in a personal capacity. It does not represent the views of the State Bank of Pakistan, Government of Pakistan, or any commercial institution. The author is not affiliated with any organisation named in this document. All projections are estimates based on publicly available data and should be validated through formal feasibility study before implementation.
 
 ---
 
-*© 2026 — Eidi Digital Bond Program White Paper v1.1*  
-*For inquiries: Policy implementation via Ministry of Finance / SBP Payments Systems Department*
+*© 2026 Muhammad Ammar Jamshed — Eidi Digital Bond Program White Paper v1.1*  
+*Author:* [Muhammad Ammar Jamshed on LinkedIn](https://www.linkedin.com/in/goto-resumemuhammad-ammar-jamshed-029280145/)  
+*For policy discussion:* independent submission for public and stakeholder review

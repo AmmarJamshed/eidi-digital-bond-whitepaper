@@ -13,7 +13,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Eidi Digital Bond Program (EDBP) — White Paper</title>
   <meta name="description" content="Policy white paper on Pakistan's Eidi Digital Bond Program: trend analysis, fiscal impact, RAAST integration, and implementation roadmap for banking, government, and research." />
-  <meta name="author" content="Eidi Digital Bond Program" />
+  <meta name="author" content="Muhammad Ammar Jamshed" />
   <meta property="og:title" content="Eidi Digital Bond Program — White Paper" />
   <meta property="og:description" content="A modern way to replace cash Eidi with digital bonds while increasing financial inclusion in Pakistan." />
   <meta property="og:type" content="article" />
@@ -33,6 +33,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       <div class="header-meta">
         <span>Version 1.1</span>
         <span>July 2026</span>
+        <span class="author-line">By <a href="https://www.linkedin.com/in/goto-resumemuhammad-ammar-jamshed-029280145/" target="_blank" rel="noopener noreferrer">Muhammad Ammar Jamshed</a> · Independent author</span>
         <a class="btn" href="white-paper.pdf" download>Download PDF</a>
       </div>
     </div>
@@ -56,8 +57,9 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
   <footer class="site-footer">
     <div class="container">
-      <p>Public document for policy, banking, research, and implementation use.</p>
-      <p class="muted">Prepared for State Bank of Pakistan, Ministry of Finance, commercial banks, fintechs, academia, and development partners.</p>
+      <p><strong>Author:</strong> <a href="https://www.linkedin.com/in/goto-resumemuhammad-ammar-jamshed-029280145/" target="_blank" rel="noopener noreferrer">Muhammad Ammar Jamshed</a> — independent researcher and policy author.</p>
+      <p class="muted">This work is not affiliated with, endorsed by, or produced on behalf of the State Bank of Pakistan, the Government of Pakistan, or any institution named in this document.</p>
+      <p class="muted">Prepared for policy, banking, research, and implementation discussion by prospective stakeholders.</p>
     </div>
   </footer>
 </body>

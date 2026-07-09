@@ -241,6 +241,33 @@ body {
   font-size: 0.88rem;
 }
 
+.author-line a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.site-footer a {
+  color: var(--accent);
+}
+
+.header-meta .author-line a:hover,
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.header-meta .author-line {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.92rem;
+}
+
+.header-meta .author-line a {
+  text-decoration: none;
+}
+
+.header-meta .author-line a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 720px) {
   .header-inner {
     align-items: flex-start;
