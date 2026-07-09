@@ -163,8 +163,9 @@ Launch EDBP as a **regulated pilot** under SBP supervision in partnership with C
 20. [Policy Recommendations](#20-policy-recommendations)
 21. [Conclusion](#21-conclusion)
 22. [Data Sources & Methodology](#22-data-sources--methodology)
-23. [Annexes](#annexes)
-24. [References & Sources](#references--sources)
+23. [About the Author](#23-about-the-author)
+24. [Annexes](#annexes)
+25. [References & Sources](#references--sources)
 
 ---
 
@@ -1107,7 +1108,53 @@ This section documents **every category of statistic** used in this paper, how i
 1. **No official Eid withdrawal time series** — SBP does not publish real-time Eid-specific data; historical press estimates (2017) are the best public benchmarks.
 2. **Model estimates are illustrative** — all projections require validation through a formal feasibility study and pilot telemetry.
 3. **Diaspora figures vary** — overseas Pakistani population estimates range by source; remittance data is official (SBP) but Eid-specific allocation is estimated.
-4. **This paper is independent** — it does not represent SBP, MoF, or any commercial institution.
+4. **This paper is independent** — it does not represent SBP, MoF, or any commercial institution. See [§23 About the Author](#23-about-the-author).
+
+---
+
+## 23. About the Author
+
+### Muhammad Ammar Jamshed
+
+**[LinkedIn →](https://www.linkedin.com/in/goto-resumemuhammad-ammar-jamshed-029280145/)** · Independent researcher & policy author · Pakistan
+
+---
+
+**Muhammad Ammar Jamshed** is the sole author of this white paper, written entirely in a **personal and independent capacity**. He is not employed by, contracted to, or representing the State Bank of Pakistan, the Government of Pakistan, any bank, fintech, or other institution referenced in this document.
+
+#### Background
+
+Muhammad Ammar Jamshed holds an **MSc in Data Science** from the University of London. His professional work spans data analytics, financial systems thinking, and public-policy research — with a focus on applying quantitative methods to real-world economic and inclusion challenges in emerging markets.
+
+He has worked across data science, analytics, and entrepreneurship — including experience in consumer goods analytics and independent consulting — and writes on data science and policy topics for a general professional audience.
+
+#### Why This Paper
+
+The Eidi Digital Bond Program emerged from observing a recurring gap in Pakistan's otherwise accelerating digital finance agenda: **the country's largest cultural money ritual still runs entirely on cash**, pulling billions out of the formal system each Eid. This paper applies data-driven policy analysis to propose a practical, culturally respectful alternative — one that serves families, children, overseas Pakistanis, and the broader economy without expanding money supply.
+
+#### Author's Role in This Work
+
+| Aspect | Detail |
+|--------|--------|
+| **Conception** | Original policy idea and program design |
+| **Research** | Trend analysis, data sourcing, international benchmarking |
+| **Writing** | Full white paper authorship |
+| **Affiliation** | None — independent submission |
+| **Funding** | None — self-initiated research |
+| **Endorsement** | No institution has reviewed or approved this document |
+
+#### Independence Statement
+
+> This white paper is an independent scholarly and policy contribution. References to the State Bank of Pakistan, Ministry of Finance, commercial banks, fintechs, and other entities are made solely to describe the **proposed policy environment** and prospective stakeholders. No implied partnership, endorsement, or institutional affiliation should be inferred.
+>
+> For correspondence regarding this paper: connect via [LinkedIn](https://www.linkedin.com/in/goto-resumemuhammad-ammar-jamshed-029280145/).
+
+#### Relevant Expertise Applied
+
+- **Data analysis & modelling** — impact estimates, cost-avoidance scenarios, KPI frameworks
+- **Payment systems literacy** — RAAST, EMI wallets, digital bonds, remittance rails
+- **Policy writing** — regulatory pathways, implementation roadmaps, stakeholder mapping
+- **Financial inclusion framing** — behavioural economics, diaspora use cases, child onboarding
 
 ---
 

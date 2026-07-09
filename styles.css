@@ -268,6 +268,34 @@ body {
   text-decoration: underline;
 }
 
+.article h2#23-about-the-author {
+  border-top: none;
+  margin-top: 0;
+}
+
+.about-author-card {
+  margin: 1.5rem 0 2rem;
+  padding: 1.5rem 1.75rem;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, #f8fcfa 0%, #f7f8fb 100%);
+}
+
+.about-author-card h3 {
+  margin-top: 0;
+  font-size: 1.35rem;
+}
+
+.about-author-card .author-links {
+  margin: 0.5rem 0 1rem;
+  font-size: 0.95rem;
+}
+
+.about-author-card .author-links a {
+  font-weight: 600;
+}
+
 @media (max-width: 720px) {
   .header-inner {
     align-items: flex-start;

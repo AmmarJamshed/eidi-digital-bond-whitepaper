@@ -47,6 +47,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       <a href="#7-who-benefits--stakeholder-value-propositions">Who Benefits</a>
       <a href="#10-overseas-pakistanis--diaspora-eidi">Diaspora</a>
       <a href="#17-implementation-roadmap-18-months">Roadmap</a>
+      <a href="#23-about-the-author">About Author</a>
       <a href="#22-data-sources--methodology">Data Sources</a>
     </div>
   </nav>
