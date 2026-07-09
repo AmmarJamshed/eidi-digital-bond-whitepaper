@@ -23,8 +23,8 @@
         <p class="subtitle">Trend Analysis · Policy Framework · Implementation Roadmap</p>
       </div>
       <div class="header-meta">
-        <span>Version 1.0</span>
-        <span>June 2026</span>
+        <span>Version 1.1</span>
+        <span>July 2026</span>
         <a class="btn" href="white-paper.pdf" download>Download PDF</a>
       </div>
     </div>
@@ -33,12 +33,12 @@
   <nav class="toc-bar" aria-label="On this page">
     <div class="container">
       <span class="toc-label">Jump to:</span>
-      <a href="#executive-summary">Executive Summary</a>
-      <a href="#1-introduction--cultural-economic-context">Introduction</a>
-      <a href="#3-global--regional-trend-analysis">Trends</a>
-      <a href="#13-implementation-roadmap-18-months">Roadmap</a>
-      <a href="#16-policy-recommendations">Policy</a>
-      <a href="#references--sources">Sources</a>
+      <a href="#1-the-problem-we-are-solving">The Problem</a>
+      <a href="#2-executive-summary">Summary</a>
+      <a href="#7-who-benefits--stakeholder-value-propositions">Who Benefits</a>
+      <a href="#10-overseas-pakistanis--diaspora-eidi">Diaspora</a>
+      <a href="#17-implementation-roadmap-18-months">Roadmap</a>
+      <a href="#22-data-sources--methodology">Data Sources</a>
     </div>
   </nav>
 
@@ -46,8 +46,8 @@
     <h1 id="eidi-digital-bond-program-edbp">Eidi Digital Bond Program (EDBP)</h1>
 <h2 id="white-paper-trend-analysis-policy-framework-implementation-roadmap">White Paper: Trend Analysis, Policy Framework &amp; Implementation Roadmap</h2>
 <p><strong>Document Type:</strong> Policy &amp; Innovation White Paper<br />
-<strong>Version:</strong> 1.0<br />
-<strong>Date:</strong> June 2026<br />
+<strong>Version:</strong> 1.1<br />
+<strong>Date:</strong> July 2026<br />
 <strong>Classification:</strong> Public — For Policy, Banking, Research &amp; Implementation Use<br />
 <strong>Prepared for:</strong> State Bank of Pakistan, Ministry of Finance, Commercial Banks, Fintechs, Academia &amp; Development Partners</p>
 <hr />
@@ -87,9 +87,142 @@
 </tbody>
 </table>
 <hr />
-<h2 id="executive-summary">Executive Summary</h2>
-<p>Every year, Pakistan experiences a predictable but structurally unmanaged surge in physical cash demand tied to <strong>Eidi</strong> — cash gifts exchanged during Eid-ul-Fitr and Eid-ul-Adha. This seasonal spike strains ATMs, accelerates banknote printing and replacement, widens the informal cash economy, and misses a once-a-year opportunity to onboard millions of citizens — especially children and youth — into the formal financial system.</p>
-<p>The <strong>Eidi Digital Bond Program (EDBP)</strong> proposes a culturally resonant, technically feasible, and fiscally disciplined alternative: <strong>small-denomination, government-guaranteed digital bonds</strong> that can be purchased before Eid, gifted digitally, and cashed out instantly on Eid via RAAST-linked accounts.</p>
+<h2 id="1-the-problem-we-are-solving">1. The Problem We Are Solving</h2>
+<p>Before describing any solution, this paper establishes the core problem: <strong>Pakistan's Eid season triggers a massive, predictable, and largely unmanaged extraction of money from the formal financial system — driven by the cultural practice of giving cash Eidi — with lasting costs for families, institutions, and the economy.</strong></p>
+<h3 id="11-what-happens-every-eid-a-predictable-cash-shock">1.1 What Happens Every Eid — A Predictable Cash Shock</h3>
+<p>Each year, in the weeks before Eid-ul-Fitr and Eid-ul-Adha, millions of Pakistani households follow the same pattern:</p>
+<ol>
+<li><strong>Withdraw</strong> large sums of cash from banks and ATMs</li>
+<li><strong>Obtain</strong> fresh currency notes (via branches, the SBP 8877 SMS service, or informal markets)</li>
+<li><strong>Distribute</strong> cash as Eidi to children, relatives, workers, and community members</li>
+<li><strong>Spend</strong> remaining cash on Eid consumer purchases — clothing, food, gifts, livestock (Eid-ul-Adha)</li>
+</ol>
+<p>This is not a marginal behaviour. Historical reporting places the scale at:</p>
+<table>
+<thead>
+<tr>
+<th>Indicator</th>
+<th>Reported Scale</th>
+<th>Year / Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fresh currency notes disbursed (single Eid cycle)</td>
+<td>Up to <strong>PKR 380 billion</strong></td>
+<td>2017 — <a href="https://www.dawn.com/news/1341892">Dawn</a></td>
+</tr>
+<tr>
+<td>SBP 8877 SMS fresh-note service</td>
+<td>~<strong>PKR 30 billion</strong></td>
+<td>2017 — Dawn (SBP spokesperson)</td>
+</tr>
+<tr>
+<td>Commercial bank counter + ATM allocation</td>
+<td>~<strong>PKR 340 billion</strong></td>
+<td>2017 — Dawn</td>
+</tr>
+<tr>
+<td>Pre-Eid cash withdrawals</td>
+<td>~<strong>PKR 250 billion</strong> (estimated)</td>
+<td>2017 — Banking sector reports via Dawn</td>
+</tr>
+<tr>
+<td>Remittance inflows earmarked for Eid spending</td>
+<td>~<strong>$1.8 billion</strong> (~PKR 191B)</td>
+<td>2016–17 est. — Dawn</td>
+</tr>
+</tbody>
+</table>
+<p><em>Note: SBP does not publish a real-time official Eid withdrawal series. Figures reflect historical press and research estimates and should be re-baselined during a pilot.</em></p>
+<p>The result is <strong>ATM congestion</strong>, <strong>branch overcrowding</strong>, <strong>accelerated banknote printing</strong>, <strong>informal premium trading of fresh notes</strong>, and <strong>seasonal liquidity pressure</strong> on banks — documented in academic research on Ramadan/Eid deposit volatility in Pakistan (<a href="https://www.phd-finance.uzh.ch/dam/jcr:1c25e3b4-75d7-441f-9078-4b71e63e613c/seminar_contract_theory_paper_Limodio.pdf">Limodio, UZH</a>).</p>
+<h3 id="12-the-behavioural-problem-cash-leaves-the-formal-system">1.2 The Behavioural Problem — Cash Leaves the Formal System</h3>
+<p>The problem is not only logistical. It is <strong>behavioural and structural</strong>:</p>
+<p><strong>Step 1 — Deliberate withdrawal from banks.</strong> Around Eid, many account holders withdraw cash <em>specifically</em> to give Eidi — not because they lack digital alternatives, but because cash is the culturally default medium for the ritual. Bankers consistently report sharp pre-Eid withdrawal spikes (<a href="https://www.dawn.com/news/1916220">Dawn, 2025</a>).</p>
+<p><strong>Step 2 — Exit from the formal financial system.</strong> Once withdrawn, Eidi cash sits outside bank accounts, EMI wallets, and savings products. It is held in homes, pockets, and envelopes — unrecorded, uninsured, and invisible to the financial system.</p>
+<p><strong>Step 3 — Consumption, not retention.</strong> Eidi cash is overwhelmingly spent, not saved. Children and recipients use it for immediate purchases — snacks, toys, clothes, outings — or hand it to parents for household Eid spending. Very little converts into formal savings, investment, or account balances. The money <strong>enters the retail economy as cash</strong> and rarely returns to the banking system as deposits.</p>
+<p><strong>Step 4 — A missed financial-inclusion moment.</strong> Eid is the one occasion each year when virtually every Pakistani child receives money — yet the default delivery mechanism (cash) provides <strong>no account opening, no savings pathway, no financial literacy hook, and no KYC linkage</strong>. Pakistan's NFIS 2024–28 identifies persistent "preference for cash embedded in the culture" as a core barrier (<a href="https://www.brecorder.com/news/40342500">Business Recorder, Jan 2025</a>) — and Eid is the single largest annual reinforcement of that preference.</p>
+<pre><code>  BANK ACCOUNT                    CASH IN HAND                 RETAIL / INFORMAL
+  ┌──────────────┐   Withdraw    ┌──────────────┐   Spend      ┌──────────────┐
+  │ Formal       │ ────────────▶ │ Eidi cash    │ ──────────▶  │ Consumer     │
+  │ deposits     │   (pre-Eid)   │ (outside     │   (Eid week) │ purchases    │
+  │              │               │  banking)    │              │ (no return)  │
+  └──────────────┘               └──────────────┘              └──────────────┘
+        ▲                              │                              │
+        │                              │                              │
+        └──────── No savings loop ─────┴──────────────────────────────┘
+</code></pre>
+<p><strong>This is the problem EDBP targets:</strong> not the tradition of Eidi, but the <strong>cash pipeline</strong> that strips value from the formal system at the exact moment when digital onboarding would be most culturally acceptable.</p>
+<h3 id="13-systemic-costs-of-the-status-quo">1.3 Systemic Costs of the Status Quo</h3>
+<table>
+<thead>
+<tr>
+<th>Cost Category</th>
+<th>Impact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Currency printing &amp; logistics</strong></td>
+<td>PKR 8–10B/year on PKR 10 notes alone; seasonal Eid spikes add pressure across denominations (<a href="https://tribune.com.pk/story/2594680/10-rupee-coins-could-save-billions-new-report-recommends">Tribune, 2025</a>)</td>
+</tr>
+<tr>
+<td><strong>Bank liquidity stress</strong></td>
+<td>Seasonal deposit outflows during Ramadan/Eid reduce banks' lending capacity (<a href="https://www.phd-finance.uzh.ch/dam/jcr:1c25e3b4-75d7-441f-9078-4b71e63e613c/seminar_contract_theory_paper_Limodio.pdf">Limodio</a>)</td>
+</tr>
+<tr>
+<td><strong>Financial exclusion</strong></td>
+<td>36% of adults remain unbanked (64% inclusion, 2023); Eid reinforces cash habit instead of converting recipients (<a href="https://www.brecorder.com/news/40342500">NFIS 2024–28</a>)</td>
+</tr>
+<tr>
+<td><strong>Informal economy</strong></td>
+<td>Fresh-note premiums, undocumented transfers, theft/loss risk — especially for children</td>
+</tr>
+<tr>
+<td><strong>Diaspora friction</strong></td>
+<td>Overseas Pakistanis send remittances for Eid, but recipients still convert to cash for Eidi distribution</td>
+</tr>
+<tr>
+<td><strong>Lost sovereign float</strong></td>
+<td>Billions exit deposits pre-Eid that could temporarily fund government securities if retained digitally</td>
+</tr>
+</tbody>
+</table>
+<h3 id="14-why-current-approaches-do-not-solve-this">1.4 Why Current Approaches Do Not Solve This</h3>
+<table>
+<thead>
+<tr>
+<th>Approach</th>
+<th>Limitation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RAAST P2P transfers</strong></td>
+<td>Technically capable, but not framed as "Eidi" — no cultural packaging, no child recipient workflow, no savings option</td>
+</tr>
+<tr>
+<td><strong>ATM fresh-note programmes</strong></td>
+<td>Reinforces cash habit; costs SBP PKR billions in printing and logistics</td>
+</tr>
+<tr>
+<td><strong>Financial literacy campaigns</strong></td>
+<td>Generic messaging fights cultural cash preference; Eid-specific product absent</td>
+</tr>
+<tr>
+<td><strong>Standard remittance channels</strong></td>
+<td>Money arrives in accounts but is withdrawn as cash for Eidi within days</td>
+</tr>
+<tr>
+<td><strong>Digital Prize Bonds</strong></td>
+<td>Long-term investment product — not designed for seasonal gifting or instant Eid redemption</td>
+</tr>
+</tbody>
+</table>
+<p><strong>No existing instrument combines:</strong> cultural Eidi framing + government guarantee + instant digital delivery + child recipient onboarding + diaspora purchase capability + optional savings conversion.</p>
+<hr />
+<h2 id="2-executive-summary">2. Executive Summary</h2>
+<p>Having established the problem above, this paper proposes the <strong>Eidi Digital Bond Program (EDBP)</strong> — a culturally resonant, technically feasible, and fiscally disciplined alternative: <strong>small-denomination, government-guaranteed digital bonds</strong> purchased before Eid, gifted digitally, and cashed out instantly on Eid via RAAST-linked accounts.</p>
 <p><strong>This is not monetary expansion.</strong> Citizens purchase bonds using existing digital money. The State Bank receives upfront liquidity. Redemption releases funds already in the system. No new currency is printed.</p>
 <h3 id="why-now-five-converging-trends-20242026">Why Now — Five Converging Trends (2024–2026)</h3>
 <table>
@@ -165,32 +298,37 @@
 <hr />
 <h2 id="table-of-contents">Table of Contents</h2>
 <ol>
-<li><a href="#1-introduction--cultural-economic-context">Introduction &amp; Cultural-Economic Context</a></li>
-<li><a href="#2-problem-statement-the-eid-cash-shock">Problem Statement: The Eid Cash Shock</a></li>
-<li><a href="#3-global--regional-trend-analysis">Global &amp; Regional Trend Analysis</a></li>
-<li><a href="#4-pakistan-macro-trends--policy-alignment">Pakistan Macro Trends &amp; Policy Alignment</a></li>
-<li><a href="#5-the-eidi-digital-bond--instrument-design">The Eidi Digital Bond — Instrument Design</a></li>
-<li><a href="#6-program-architecture--user-journey">Program Architecture &amp; User Journey</a></li>
-<li><a href="#7-economic--fiscal-analysis">Economic &amp; Fiscal Analysis</a></li>
-<li><a href="#8-monetary-policy--inflation-safeguards">Monetary Policy &amp; Inflation Safeguards</a></li>
-<li><a href="#9-regulatory--legal-framework">Regulatory &amp; Legal Framework</a></li>
-<li><a href="#10-technology--interoperability">Technology &amp; Interoperability</a></li>
-<li><a href="#11-stakeholder-roles--commercial-model">Stakeholder Roles &amp; Commercial Model</a></li>
-<li><a href="#12-risk-assessment--mitigation">Risk Assessment &amp; Mitigation</a></li>
-<li><a href="#13-implementation-roadmap-18-months">Implementation Roadmap (18 Months)</a></li>
-<li><a href="#14-kpis-monitoring--research-agenda">KPIs, Monitoring &amp; Research Agenda</a></li>
-<li><a href="#15-optional-product-extensions">Optional Product Extensions</a></li>
-<li><a href="#16-policy-recommendations">Policy Recommendations</a></li>
-<li><a href="#17-conclusion">Conclusion</a></li>
+<li><a href="#1-the-problem-we-are-solving">The Problem We Are Solving</a></li>
+<li><a href="#2-executive-summary">Executive Summary</a></li>
+<li><a href="#3-introduction--cultural-economic-context">Introduction &amp; Cultural-Economic Context</a></li>
+<li><a href="#4-problem-deep-dive-data--behavioural-economics">Problem Deep-Dive: Data &amp; Behavioural Economics</a></li>
+<li><a href="#5-global--regional-trend-analysis">Global &amp; Regional Trend Analysis</a></li>
+<li><a href="#6-pakistan-macro-trends--policy-alignment">Pakistan Macro Trends &amp; Policy Alignment</a></li>
+<li><a href="#7-who-benefits--stakeholder-value-propositions">Who Benefits — Stakeholder Value Propositions</a></li>
+<li><a href="#8-the-eidi-digital-bond--instrument-design">The Eidi Digital Bond — Instrument Design</a></li>
+<li><a href="#9-program-architecture--user-journey">Program Architecture &amp; User Journey</a></li>
+<li><a href="#10-overseas-pakistanis--diaspora-eidi">Overseas Pakistanis &amp; Diaspora Eidi</a></li>
+<li><a href="#11-economic--fiscal-analysis">Economic &amp; Fiscal Analysis</a></li>
+<li><a href="#12-monetary-policy--inflation-safeguards">Monetary Policy &amp; Inflation Safeguards</a></li>
+<li><a href="#13-regulatory--legal-framework">Regulatory &amp; Legal Framework</a></li>
+<li><a href="#14-technology--interoperability">Technology &amp; Interoperability</a></li>
+<li><a href="#15-stakeholder-roles--commercial-model">Stakeholder Roles &amp; Commercial Model</a></li>
+<li><a href="#16-risk-assessment--mitigation">Risk Assessment &amp; Mitigation</a></li>
+<li><a href="#17-implementation-roadmap-18-months">Implementation Roadmap (18 Months)</a></li>
+<li><a href="#18-kpis-monitoring--research-agenda">KPIs, Monitoring &amp; Research Agenda</a></li>
+<li><a href="#19-optional-product-extensions">Optional Product Extensions</a></li>
+<li><a href="#20-policy-recommendations">Policy Recommendations</a></li>
+<li><a href="#21-conclusion">Conclusion</a></li>
+<li><a href="#22-data-sources--methodology">Data Sources &amp; Methodology</a></li>
 <li><a href="#annexes">Annexes</a></li>
 <li><a href="#references--sources">References &amp; Sources</a></li>
 </ol>
 <hr />
-<h2 id="1-introduction-cultural-economic-context">1. Introduction &amp; Cultural-Economic Context</h2>
-<h3 id="11-what-is-eidi">1.1 What Is Eidi?</h3>
+<h2 id="3-introduction-cultural-economic-context">3. Introduction &amp; Cultural-Economic Context</h2>
+<h3 id="31-what-is-eidi">3.1 What Is Eidi?</h3>
 <p><strong>Eidi</strong> (عیدی) is a cherished Islamic cultural practice of giving cash gifts to children, younger relatives, domestic workers, and community members during Eid celebrations. In Pakistan, Eidi is not discretionary spending — it is a <strong>social obligation</strong> embedded in family, religious, and community norms. The practice cuts across income classes, geographies, and urban-rural divides.</p>
 <p>This cultural universality makes Eidi a uniquely powerful <strong>financial inclusion lever</strong>: every household participates; every child is a potential recipient; every adult is a potential sender.</p>
-<h3 id="12-the-missed-opportunity">1.2 The Missed Opportunity</h3>
+<h3 id="32-the-missed-opportunity">3.2 The Missed Opportunity</h3>
 <p>Pakistan has invested heavily since 2019 in digital payments infrastructure — RAAST, Asaan Digital Accounts, digital banks, EMI regulation, and the National Financial Inclusion Strategy (NFIS). Yet during the exact weeks when digital adoption campaigns would be most culturally acceptable, the financial system <strong>defaults to cash</strong>:</p>
 <ul>
 <li>Citizens queue at bank branches for fresh notes</li>
@@ -199,14 +337,15 @@
 <li>Children receive cash with no pathway to savings or accounts</li>
 </ul>
 <p>EDBP reframes Eidi from a <strong>cash logistics problem</strong> into a <strong>national financial capability moment</strong>.</p>
-<h3 id="13-program-thesis">1.3 Program Thesis</h3>
+<h3 id="33-program-thesis">3.3 Program Thesis</h3>
 <blockquote>
 <p><strong>Replace the medium of Eidi — not the tradition of Eidi.</strong></p>
 </blockquote>
 <p>An Eidi Digital Bond preserves the ritual of giving while routing value through regulated digital rails, creating traceability, safety, optional savings, and temporary sovereign financing — without expanding money supply.</p>
 <hr />
-<h2 id="2-problem-statement-the-eid-cash-shock">2. Problem Statement: The Eid Cash Shock</h2>
-<h3 id="21-seasonal-cash-demand">2.1 Seasonal Cash Demand</h3>
+<h2 id="4-problem-deep-dive-data-behavioural-economics">4. Problem Deep-Dive: Data &amp; Behavioural Economics</h2>
+<p>This section supplements §1 with additional data and behavioural analysis. The core problem — cash extraction, informal circulation, and consumption rather than savings — is established upfront in Section 1.</p>
+<h3 id="41-seasonal-cash-demand-historical-data">4.1 Seasonal Cash Demand — Historical Data</h3>
 <p>Pakistan's Eid economy generates substantial, predictable cash extraction from the banking system:</p>
 <table>
 <thead>
@@ -245,7 +384,7 @@
 </tbody>
 </table>
 <p><em>Note: SBP does not publish real-time Eid-specific withdrawal series; figures reflect historical press and research estimates. A pilot should establish baseline telemetry.</em></p>
-<h3 id="22-operational-strain">2.2 Operational Strain</h3>
+<h3 id="42-operational-strain-on-infrastructure">4.2 Operational Strain on Infrastructure</h3>
 <p>The Eid cash shock creates systemic friction:</p>
 <ol>
 <li><strong>ATM congestion</strong> — Long queues, out-of-cash events, urban branch overcrowding</li>
@@ -254,7 +393,42 @@
 <li><strong>Informal premium economy</strong> — Illegal trading of fresh notes; weak economic documentation</li>
 <li><strong>Security risk</strong> — Cash handling, theft, loss — especially for children</li>
 </ol>
-<h3 id="23-currency-management-cost-context">2.3 Currency Management Cost Context</h3>
+<h3 id="43-behavioural-economics-of-eid-cash">4.3 Behavioural Economics of Eid Cash</h3>
+<p>Research and market observation confirm a consistent behavioural loop:</p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Behaviour</th>
+<th>Consequence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pre-Eid (Ramadan)</strong></td>
+<td>Account holders withdraw cash specifically for Eidi envelopes</td>
+<td>Bank deposits fall; ATM demand spikes</td>
+</tr>
+<tr>
+<td><strong>Eid day</strong></td>
+<td>Cash handed to children, workers, relatives</td>
+<td>Money exits formal system; no KYC on recipient side</td>
+</tr>
+<tr>
+<td><strong>Post-Eid week</strong></td>
+<td>Recipients spend on consumer goods (food, clothing, toys)</td>
+<td>Cash enters retail/MFI economy; rarely returns as savings</td>
+</tr>
+<tr>
+<td><strong>Long-term</strong></td>
+<td>Children associate Eidi with cash, not accounts</td>
+<td>Reinforces generational cash preference</td>
+</tr>
+</tbody>
+</table>
+<p>Academic evidence from Pakistan shows that Ramadan and Eid cause measurable deposit volatility at banks, with institutions more exposed to Sunni-majority areas experiencing larger seasonal outflows (<a href="https://www.phd-finance.uzh.ch/dam/jcr:1c25e3b4-75d7-441f-9078-4b71e63e613c/seminar_contract_theory_paper_Limodio.pdf">Limodio</a>). The NFIS 2024–28 explicitly names cultural cash preference as a persistent inclusion barrier (<a href="https://www.brecorder.com/news/40342500">Business Recorder, 2025</a>).</p>
+<p><strong>EDBP interrupts this loop</strong> by keeping Eidi value inside regulated digital wallets until the recipient chooses to cash out or save — converting a consumption event into a potential <strong>inclusion and savings event</strong>.</p>
+<h3 id="44-currency-management-cost-context">4.4 Currency Management Cost Context</h3>
 <p>Pakistan's currency management costs are material and rising:</p>
 <ul>
 <li><strong>PKR 10 note printing alone:</strong> PKR 8–10 billion annually (~35% of all notes printed)</li>
@@ -262,7 +436,7 @@
 <li><strong>Total currency in circulation:</strong> ~PKR 11 trillion (2026 est.)</li>
 </ul>
 <p>EDBP does not replace denomination reform — it <strong>complements</strong> it by reducing seasonal demand for physical notes across all denominations used in Eidi (PKR 50–5,000).</p>
-<h3 id="24-financial-inclusion-gap">2.4 Financial Inclusion Gap</h3>
+<h3 id="45-financial-inclusion-gap">4.5 Financial Inclusion Gap</h3>
 <p>Despite progress (16% → 64% bank account ownership, 2015–2023), Pakistan's NFIS 2024–28 acknowledges a persistent barrier:</p>
 <blockquote>
 <p><em>"General preference for cash embedded in the culture."</em><br />
@@ -270,8 +444,8 @@
 </blockquote>
 <p>Eidi is the exception where <strong>digital giving can be socially encouraged</strong> without fighting cultural cash preference — because the sender wants convenience and the receiver wants instant value.</p>
 <hr />
-<h2 id="3-global-regional-trend-analysis">3. Global &amp; Regional Trend Analysis</h2>
-<h3 id="31-trend-1-tokenized-government-bonds-for-retail-investors">3.1 Trend 1 — Tokenized Government Bonds for Retail Investors</h3>
+<h2 id="5-global-regional-trend-analysis">5. Global &amp; Regional Trend Analysis</h2>
+<h3 id="51-trend-1-tokenized-government-bonds-for-retail-investors">5.1 Trend 1 — Tokenized Government Bonds for Retail Investors</h3>
 <p><strong>Status:</strong> Accelerating globally; emerging markets leapfrogging legacy bond market infrastructure.</p>
 <table>
 <thead>
@@ -305,7 +479,7 @@
 </table>
 <p>The Philippines model is the closest analog: <strong>94 million GCash users</strong> can access government bonds from PHP 500 through an app they already use. Pakistan's JazzCash (40M+ users) and Easypaisa (35M+ active) provide equivalent distribution scale.</p>
 <p><strong>Strategic insight:</strong> EDBP is not experimental in a global vacuum — it is a <strong>localized, seasonal, micro-denomination variant</strong> of a validated policy trend.</p>
-<h3 id="32-trend-2-digital-vouchers-purpose-bound-money">3.2 Trend 2 — Digital Vouchers &amp; Purpose-Bound Money</h3>
+<h3 id="52-trend-2-digital-vouchers-purpose-bound-money">5.2 Trend 2 — Digital Vouchers &amp; Purpose-Bound Money</h3>
 <table>
 <thead>
 <tr>
@@ -338,7 +512,7 @@
 </tbody>
 </table>
 <p><strong>Common thread:</strong> Central banks distinguish between <strong>CBDC (money creation)</strong> and <strong>digital vouchers/bonds (existing money, programmed use)</strong>. EDBP falls in the latter category — a critical distinction for SBP monetary policy credibility.</p>
-<h3 id="33-trend-3-instant-payment-rails-as-national-infrastructure">3.3 Trend 3 — Instant Payment Rails as National Infrastructure</h3>
+<h3 id="53-trend-3-instant-payment-rails-as-national-infrastructure">5.3 Trend 3 — Instant Payment Rails as National Infrastructure</h3>
 <p>Pakistan's RAAST places the country among leading instant-payment adopters:</p>
 <table>
 <thead>
@@ -375,7 +549,7 @@
 </tbody>
 </table>
 <p>RAAST's <strong>Bulk Payments</strong> module — already identified by CDNS for profit payments and investment encashment — is the natural settlement backbone for EDBP redemption.</p>
-<h3 id="34-trend-4-mobile-wallets-as-primary-bank-for-the-masses">3.4 Trend 4 — Mobile Wallets as Primary Bank for the Masses</h3>
+<h3 id="54-trend-4-mobile-wallets-as-primary-bank-for-the-masses">5.4 Trend 4 — Mobile Wallets as Primary Bank for the Masses</h3>
 <table>
 <thead>
 <tr>
@@ -408,7 +582,7 @@
 </tbody>
 </table>
 <p><strong>Trend conclusion:</strong> Pakistan has achieved <strong>distribution scale</strong> before achieving <strong>cultural cash displacement</strong>. EDBP targets the cultural moment.</p>
-<h3 id="35-trend-5-scripless-government-savings-domestic-precedent">3.5 Trend 5 — Scripless Government Savings (Domestic Precedent)</h3>
+<h3 id="55-trend-5-scripless-government-savings-domestic-precedent">5.5 Trend 5 — Scripless Government Savings (Domestic Precedent)</h3>
 <p>Pakistan is already transitioning government savings instruments to digital:</p>
 <ul>
 <li><strong>Digital Prize Bonds (Registered) Rules, 2024</strong> — Notified by Finance Division</li>
@@ -418,8 +592,8 @@
 </ul>
 <p>EDBP should be architected as a <strong>sibling instrument</strong> to Digital Prize Bonds — not a competing silo — sharing KYC, registry, and settlement infrastructure.</p>
 <hr />
-<h2 id="4-pakistan-macro-trends-policy-alignment">4. Pakistan Macro Trends &amp; Policy Alignment</h2>
-<h3 id="41-nfis-202428-alignment-matrix">4.1 NFIS 2024–28 Alignment Matrix</h3>
+<h2 id="6-pakistan-macro-trends-policy-alignment">6. Pakistan Macro Trends &amp; Policy Alignment</h2>
+<h3 id="61-nfis-202428-alignment-matrix">6.1 NFIS 2024–28 Alignment Matrix</h3>
 <table>
 <thead>
 <tr>
@@ -454,11 +628,11 @@
 </tr>
 </tbody>
 </table>
-<h3 id="42-sbp-go-cashless-financial-literacy-week">4.2 SBP "Go Cashless" &amp; Financial Literacy Week</h3>
+<h3 id="62-sbp-go-cashless-financial-literacy-week">6.2 SBP "Go Cashless" &amp; Financial Literacy Week</h3>
 <p>SBP Deputy Governor Saleem Ullah's 2025 "Go Cashless" drive explicitly targets behavioral shift from cash to digital. EDBP provides a <strong>concrete product</strong> for that campaign — not just awareness messaging.</p>
-<h3 id="43-currency-reform-complementarity">4.3 Currency Reform Complementarity</h3>
+<h3 id="63-currency-reform-complementarity">6.3 Currency Reform Complementarity</h3>
 <p>The 2026 SBP/PSPC recommendation to replace PKR 10 notes with coins (saving PKR 40–50B over 10 years) addresses <strong>structural</strong> note cost. EDBP addresses <strong>seasonal</strong> note demand. Together, they form a coherent currency modernization agenda.</p>
-<h3 id="44-political-economy-considerations">4.4 Political Economy Considerations</h3>
+<h3 id="64-political-economy-considerations">6.4 Political Economy Considerations</h3>
 <p>EDBP is politically viable because it:</p>
 <ul>
 <li>Respects Islamic cultural practice (not a "war on cash")</li>
@@ -468,10 +642,246 @@
 <li>Creates visible digitization wins for government</li>
 </ul>
 <hr />
-<h2 id="5-the-eidi-digital-bond-instrument-design">5. The Eidi Digital Bond — Instrument Design</h2>
-<h3 id="51-definition">5.1 Definition</h3>
+<h2 id="7-who-benefits-stakeholder-value-propositions">7. Who Benefits — Stakeholder Value Propositions</h2>
+<p>EDBP creates value across the entire financial ecosystem. This section details <strong>how each stakeholder benefits</strong> — not just <strong>that</strong> they benefit.</p>
+<h3 id="71-children-eidi-recipients">7.1 Children &amp; Eidi Recipients</h3>
+<table>
+<thead>
+<tr>
+<th>Benefit</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Safety</strong></td>
+<td>No cash to lose, steal, or damage; digital record of gift</td>
+</tr>
+<tr>
+<td><strong>First account moment</strong></td>
+<td>Receiving an EDB can auto-provision a supervised child wallet (B-Form + guardian CNIC) — first step into formal finance</td>
+</tr>
+<tr>
+<td><strong>Savings option</strong></td>
+<td>"Eidi Savings Mode" lets recipients hold bonds past Eid and earn profit — converting consumption impulse into savings habit</td>
+</tr>
+<tr>
+<td><strong>Financial literacy</strong></td>
+<td>Age-appropriate app experience teaches that Eidi can be saved, not only spent</td>
+</tr>
+<tr>
+<td><strong>Equal access</strong></td>
+<td>Girls and boys receive digital Eidi equally — supports NFIS gender gap reduction (34% → 25%)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="72-families-senders-households">7.2 Families (Senders &amp; Households)</h3>
+<table>
+<thead>
+<tr>
+<th>Benefit</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Convenience</strong></td>
+<td>No ATM queues, no fresh-note hunting, no envelope preparation</td>
+</tr>
+<tr>
+<td><strong>Reach</strong></td>
+<td>Send Eidi to children in another city instantly via Raast ID / phone number</td>
+</tr>
+<tr>
+<td><strong>Cost</strong></td>
+<td>Zero transaction fees (consistent with RAAST policy)</td>
+</tr>
+<tr>
+<td><strong>Transparency</strong></td>
+<td>Parents see when Eidi was received; guardians can approve cash-out for minors</td>
+</tr>
+<tr>
+<td><strong>Family pools</strong></td>
+<td>Multiple relatives contribute to one digital Eidi gift (Family Group Eidi)</td>
+</tr>
+<tr>
+<td><strong>Cultural preservation</strong></td>
+<td>Ritual of giving unchanged — only the medium modernises</td>
+</tr>
+</tbody>
+</table>
+<h3 id="73-overseas-pakistanis-diaspora">7.3 Overseas Pakistanis (Diaspora)</h3>
+<table>
+<thead>
+<tr>
+<th>Benefit</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Direct Eidi delivery</strong></td>
+<td>Purchase EDB from abroad and assign to relative's CNIC — no cash handoff needed</td>
+</tr>
+<tr>
+<td><strong>Remittance alignment</strong></td>
+<td>Use RDA/NRP accounts or remittance partners to fund bond purchase in PKR</td>
+</tr>
+<tr>
+<td><strong>Emotional connection</strong></td>
+<td>Digital Eidi card with personalised message delivered on Eid morning in Pakistan</td>
+</tr>
+<tr>
+<td><strong>Cost reduction</strong></td>
+<td>Avoid hawala/informal channels for small Eidi gifts; fully documented transfer</td>
+</tr>
+<tr>
+<td><strong>Scale</strong></td>
+<td>~9–10 million overseas Pakistanis; ~$30B annual remittances — even 5% Eidi allocation = significant volume (<a href="https://www.sbp.org.pk">SBP remittance data</a>)</td>
+</tr>
+<tr>
+<td><strong>See §10</strong> for full diaspora workflow</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="74-government-of-pakistan">7.4 Government of Pakistan</h3>
+<table>
+<thead>
+<tr>
+<th>Benefit</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Reduced printing costs</strong></td>
+<td>Estimated PKR 7–15B/year avoided in printing, ATM logistics, and cash handling (see §11)</td>
+</tr>
+<tr>
+<td><strong>Temporary financing</strong></td>
+<td>PKR 30–80B seasonal float from pre-Eid purchases (1:1 reserve-backed, not deficit financing)</td>
+</tr>
+<tr>
+<td><strong>Economic documentation</strong></td>
+<td>Eidi flows become traceable — supports tax base and AML objectives</td>
+</tr>
+<tr>
+<td><strong>NFIS milestone</strong></td>
+<td>Visible, measurable progress toward 75% inclusion by 2028</td>
+</tr>
+<tr>
+<td><strong>No inflation risk</strong></td>
+<td>Closed-loop design — no new money printed (see §12)</td>
+</tr>
+<tr>
+<td><strong>Political capital</strong></td>
+<td>Culturally respectful digitisation win — not a "war on cash"</td>
+</tr>
+</tbody>
+</table>
+<h3 id="75-state-bank-of-pakistan-financial-system">7.5 State Bank of Pakistan &amp; Financial System</h3>
+<table>
+<thead>
+<tr>
+<th>Benefit</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Deposit retention</strong></td>
+<td>Reduces pre-Eid withdrawal spikes that stress bank liquidity (<a href="https://www.phd-finance.uzh.ch/dam/jcr:1c25e3b4-75d7-441f-9078-4b71e63e613c/seminar_contract_theory_paper_Limodio.pdf">Limodio</a>)</td>
+</tr>
+<tr>
+<td><strong>RAAST utilisation</strong></td>
+<td>High-volume seasonal use case for Bulk Payments module</td>
+</tr>
+<tr>
+<td><strong>Monetary stability</strong></td>
+<td>Lower seasonal currency-in-circulation spikes</td>
+</tr>
+<tr>
+<td><strong>Supervisory data</strong></td>
+<td>Transaction-level visibility for AML/CFT monitoring</td>
+</tr>
+<tr>
+<td><strong>Payment systems KPI</strong></td>
+<td>Adds Eid-season metrics to Quarterly Payment Systems Review</td>
+</tr>
+</tbody>
+</table>
+<h3 id="76-banks-emis-fintechs">7.6 Banks, EMIs &amp; Fintechs</h3>
+<table>
+<thead>
+<tr>
+<th>Benefit</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>New accounts</strong></td>
+<td>2–5M recipient onboarding per Eid season (pilot estimate)</td>
+</tr>
+<tr>
+<td><strong>CASA deposits</strong></td>
+<td>Post-redemption wallet balances remain in system</td>
+</tr>
+<tr>
+<td><strong>Transaction revenue</strong></td>
+<td>Interchange fees (0.1–0.25% from government)</td>
+</tr>
+<tr>
+<td><strong>Cross-sell</strong></td>
+<td>Savings, insurance, nano-loans at moment of Eidi receipt</td>
+</tr>
+<tr>
+<td><strong>Merchant volume</strong></td>
+<td>Digital cash-out flows to P2M merchants (838K+ on RAAST)</td>
+</tr>
+<tr>
+<td><strong>Brand</strong></td>
+<td>Culturally resonant "Send Eidi" campaigns drive MAU growth</td>
+</tr>
+</tbody>
+</table>
+<h3 id="77-broader-economy">7.7 Broader Economy</h3>
+<table>
+<thead>
+<tr>
+<th>Benefit</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Retail digitisation</strong></td>
+<td>Eidi spent via wallets increases digital merchant transactions</td>
+</tr>
+<tr>
+<td><strong>Savings rate</strong></td>
+<td>Optional bond-hold past Eid increases national savings pool</td>
+</tr>
+<tr>
+<td><strong>Remittance formalisation</strong></td>
+<td>Diaspora Eidi via EDB channels flows through formal rails</td>
+</tr>
+<tr>
+<td><strong>Research value</strong></td>
+<td>Natural experiment for financial inclusion, gender, and seasonal liquidity studies</td>
+</tr>
+<tr>
+<td><strong>Regional model</strong></td>
+<td>Exportable to Bangladesh, Afghanistan, Indonesia — similar Eid economies</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="8-the-eidi-digital-bond-instrument-design">8. The Eidi Digital Bond — Instrument Design</h2>
+<h3 id="81-definition">8.1 Definition</h3>
 <p>An <strong>Eidi Digital Bond (EDB)</strong> is a <strong>short-duration, scripless, government-guaranteed digital savings instrument</strong> issued specifically for Eid gifting, denominated in Pakistani Rupees, transferable between KYC-verified wallets, and redeemable at par during designated Eid windows via RAAST.</p>
-<h3 id="52-core-properties">5.2 Core Properties</h3>
+<h3 id="82-core-properties">8.2 Core Properties</h3>
 <table>
 <thead>
 <tr>
@@ -510,7 +920,7 @@
 </tr>
 <tr>
 <td><strong>Profit/coupon</strong></td>
-<td>Zero in base variant; optional "Eidi Savings Mode" (see §15)</td>
+<td>Zero in base variant; optional "Eidi Savings Mode" (see §19)</td>
 </tr>
 <tr>
 <td><strong>Guarantee</strong></td>
@@ -522,7 +932,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="53-what-edb-is-and-is-not">5.3 What EDB Is — and Is Not</h3>
+<h3 id="83-what-edb-is-and-is-not">8.3 What EDB Is — and Is Not</h3>
 <table>
 <thead>
 <tr>
@@ -553,7 +963,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="54-comparison-to-adjacent-instruments">5.4 Comparison to Adjacent Instruments</h3>
+<h3 id="84-comparison-to-adjacent-instruments">8.4 Comparison to Adjacent Instruments</h3>
 <table>
 <thead>
 <tr>
@@ -610,8 +1020,8 @@
 </tbody>
 </table>
 <hr />
-<h2 id="6-program-architecture-user-journey">6. Program Architecture &amp; User Journey</h2>
-<h3 id="61-three-step-flow">6.1 Three-Step Flow</h3>
+<h2 id="9-program-architecture-user-journey">9. Program Architecture &amp; User Journey</h2>
+<h3 id="91-three-step-flow">9.1 Three-Step Flow</h3>
 <pre><code>┌─────────────┐     ┌─────────────┐     ┌─────────────┐
 │  1. BUY     │────▶│  2. GIFT    │────▶│  3. CASH OUT│
 │  (Pre-Eid)  │     │  (Digital)  │     │  (Eid Day)  │
@@ -621,7 +1031,7 @@
   wallet debit       to recipient          to IBAN/wallet
   → EDB minted       CNIC-linked           par redemption
 </code></pre>
-<h3 id="62-detailed-user-journey-ali-sara">6.2 Detailed User Journey — "Ali &amp; Sara"</h3>
+<h3 id="92-detailed-user-journey-ali-sara">9.2 Detailed User Journey — "Ali &amp; Sara"</h3>
 <table>
 <thead>
 <tr>
@@ -665,7 +1075,7 @@
 </tbody>
 </table>
 <p><strong>Total time:</strong> &lt; 60 seconds per transaction. <strong>No ATM. No branch. No cash handling.</strong></p>
-<h3 id="63-distribution-channel-architecture">6.3 Distribution Channel Architecture</h3>
+<h3 id="93-distribution-channel-architecture">9.3 Distribution Channel Architecture</h3>
 <pre><code>                    ┌──────────────────────┐
                     │   SBP / CDNS Core    │
                     │  Bond Registry &amp;     │
@@ -691,7 +1101,7 @@
                     │  Senders &amp; Recipients│
                     └──────────────────────┘
 </code></pre>
-<h3 id="64-child-minor-wallet-framework">6.4 Child &amp; Minor Wallet Framework</h3>
+<h3 id="94-child-minor-wallet-framework">9.4 Child &amp; Minor Wallet Framework</h3>
 <table>
 <thead>
 <tr>
@@ -720,8 +1130,194 @@
 </table>
 <p>This structure supports NFIS youth inclusion goals and creates <strong>first account at first Eidi</strong> — a lifelong financial services entry point.</p>
 <hr />
-<h2 id="7-economic-fiscal-analysis">7. Economic &amp; Fiscal Analysis</h2>
-<h3 id="71-cost-avoidance-model">7.1 Cost Avoidance Model</h3>
+<h2 id="10-overseas-pakistanis-diaspora-eidi">10. Overseas Pakistanis &amp; Diaspora Eidi</h2>
+<p>A significant share of Eidi in Pakistan is funded by <strong>overseas Pakistanis</strong> — approximately <strong>9–10 million</strong> Pakistanis live abroad, sending <strong>$30+ billion</strong> in annual remittances (<a href="https://www.sbp.org.pk">SBP</a>). Historical reporting suggests that <strong>60% of Ramadan remittance inflows</strong> (~$1.8B in 2016–17) enter the market for Eid spending (<a href="https://www.dawn.com/news/1341892">Dawn, 2017</a>). Today, diaspora senders typically remit to a family bank account — which is then <strong>withdrawn as cash</strong> for Eidi distribution, repeating the behavioural loop described in §1.</p>
+<p>EDBP extends the program to overseas Pakistanis, making diaspora Eidi a <strong>first-class use case</strong> rather than an afterthought.</p>
+<h3 id="101-diaspora-user-journey-ahmed-in-dubai-niece-sara-in-lahore">10.1 Diaspora User Journey — "Ahmed in Dubai → Niece Sara in Lahore"</h3>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Actor</th>
+<th>Action</th>
+<th>Backend Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Ahmed (overseas Pakistani)</td>
+<td>Opens bank app (RDA/NRP) or EMI partner abroad → "Send Eidi Bond"</td>
+<td>PKR funded via RDA account, remittance partner, or FX conversion</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ahmed</td>
+<td>Enters recipient <strong>CNIC</strong> or <strong>B-Form</strong> + name + relationship</td>
+<td>NADRA verification; recipient matched in CDNS registry</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Ahmed</td>
+<td>Selects denomination (PKR 1,000) + optional Eid message</td>
+<td>EDB minted; held in escrow until Eid window</td>
+</tr>
+<tr>
+<td>4</td>
+<td>System</td>
+<td>Notifies Sara's guardian via SMS/app: <em>"Ahmed sent you Eidi!"</em></td>
+<td>Push notification with digital Eidi card</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Sara (Eid day)</td>
+<td>Taps "Open Eidi" → cash out or save</td>
+<td>RAAST credit to wallet; bond burned</td>
+</tr>
+</tbody>
+</table>
+<p><strong>No cash handoff. No hawala. No dependency on a relative visiting from abroad with physical notes.</strong></p>
+<h3 id="102-identity-linked-assignment">10.2 Identity-Linked Assignment</h3>
+<p>Overseas senders assign bonds using the recipient's <strong>official identity</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Recipient Type</th>
+<th>Required Identifier</th>
+<th>Guardian Rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Adult (18+)</td>
+<td>CNIC number + name match</td>
+<td>Self-redeem</td>
+</tr>
+<tr>
+<td>Minor (5–17)</td>
+<td>B-Form + name match</td>
+<td>Guardian CNIC linked; co-approval for cash-out</td>
+</tr>
+<tr>
+<td>Minor (0–4)</td>
+<td>B-Form + guardian CNIC</td>
+<td>Bond held in custodial wallet</td>
+</tr>
+</tbody>
+</table>
+<p>NADRA e-KYC APIs verify identity at assignment time, preventing misdirected gifts and enabling AML compliance.</p>
+<h3 id="103-funding-channels-for-overseas-pakistanis">10.3 Funding Channels for Overseas Pakistanis</h3>
+<table>
+<thead>
+<tr>
+<th>Channel</th>
+<th>Mechanism</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RDA (Roshan Digital Account)</strong></td>
+<td>Overseas Pakistani holds PKR account; purchases EDB directly</td>
+<td>Existing SBP framework; banks like HBL, MCB, UBL (<a href="https://www.sbp.org.pk/rda">SBP RDA</a>)</td>
+</tr>
+<tr>
+<td><strong>NRP accounts</strong></td>
+<td>Non-Resident Pakistani accounts at participating banks</td>
+<td>Mashreq NEO, Standard Chartered, others</td>
+</tr>
+<tr>
+<td><strong>Remittance partners</strong></td>
+<td>MoneyGram, Wise, Remitly → EDB purchase at destination</td>
+<td>Requires API integration (Phase 2)</td>
+</tr>
+<tr>
+<td><strong>EMI diaspora apps</strong></td>
+<td>JazzCash/Easypaisa international remittance → EDB</td>
+<td>JazzCash already processes diaspora flows</td>
+</tr>
+</tbody>
+</table>
+<h3 id="104-regulatory-considerations">10.4 Regulatory Considerations</h3>
+<ul>
+<li>Overseas purchasers must complete <strong>KYC</strong> under SBP RDA/NRP rules (already required for account holders)</li>
+<li>EDB assignment to a third-party CNIC is a <strong>gift</strong>, not a remittance — simplifies regulatory treatment vs. cross-border P2P transfers</li>
+<li><strong>FX conversion</strong> occurs at purchase; recipient receives PKR at par — no exchange risk for child</li>
+<li>SBP AML/CFT rules apply to sender; recipient verification via NADRA</li>
+</ul>
+<h3 id="105-diaspora-impact-estimate">10.5 Diaspora Impact Estimate</h3>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Assumption</th>
+<th>Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conservative</td>
+<td>5% of diaspora households send Eidi via EDB</td>
+<td>~450K bonds</td>
+</tr>
+<tr>
+<td>Moderate</td>
+<td>10% adoption; avg PKR 2,000/bond</td>
+<td>PKR 18–20B per Eid</td>
+</tr>
+<tr>
+<td>Ambitious</td>
+<td>20% adoption; avg PKR 3,000/bond</td>
+<td>PKR 54–60B per Eid</td>
+</tr>
+</tbody>
+</table>
+<p>Diaspora Eidi alone could make EDBP one of the <strong>largest seasonal digital payment events</strong> in Pakistan's history.</p>
+<h3 id="106-comparison-diaspora-eidi-today-vs-edbp">10.6 Comparison — Diaspora Eidi Today vs. EDBP</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Today (Cash/Hawala)</th>
+<th>EDBP (Digital Bond)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sender experience</strong></td>
+<td>Remit to account → relative withdraws cash</td>
+<td>Direct Eidi assignment by CNIC</td>
+</tr>
+<tr>
+<td><strong>Recipient experience</strong></td>
+<td>Cash envelope</td>
+<td>Digital Eidi card + optional savings</td>
+</tr>
+<tr>
+<td><strong>Documentation</strong></td>
+<td>Partial (remittance record only)</td>
+<td>Full (sender, recipient, amount, timestamp)</td>
+</tr>
+<tr>
+<td><strong>Cost</strong></td>
+<td>Remittance fee + cash withdrawal</td>
+<td>Remittance fee + zero EDB transfer fee</td>
+</tr>
+<tr>
+<td><strong>Speed</strong></td>
+<td>1–3 days remittance + cash pickup</td>
+<td>Instant assignment; redeem on Eid</td>
+</tr>
+<tr>
+<td><strong>Child onboarding</strong></td>
+<td>None</td>
+<td>Supervised wallet created on first Eidi</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="11-economic-fiscal-analysis">11. Economic &amp; Fiscal Analysis</h2>
+<h3 id="111-cost-avoidance-model">11.1 Cost Avoidance Model</h3>
 <table>
 <thead>
 <tr>
@@ -777,7 +1373,7 @@
 </tbody>
 </table>
 <p><em>Methodology note: Author's original estimate of PKR 7–12B printing savings aligns with this model when Eid-related printing share is assumed at 25–40% of total note production costs.</em></p>
-<h3 id="72-temporary-government-financing-benefit">7.2 Temporary Government Financing Benefit</h3>
+<h3 id="112-temporary-government-financing-benefit">11.2 Temporary Government Financing Benefit</h3>
 <p><strong>Purchase-to-redemption float:</strong></p>
 <p>If 20 million citizens purchase an average of PKR 2,000 in EDBs during a 25-day Ramadan window, gross issuance = <strong>PKR 40 billion</strong> held by government until Eid redemption.</p>
 <table>
@@ -812,7 +1408,7 @@
 </table>
 <p>At current SBP policy rate, even a zero-coupon instrument provides <strong>fiscal breathing room</strong> equivalent to a short-term T-bill auction — without auction friction.</p>
 <p><strong>Critical safeguard:</strong> Float must be ring-fenced in a <strong>segregated redemption reserve account</strong> at SBP, fully backed 1:1. This is not deficit financing.</p>
-<h3 id="73-financial-inclusion-economic-returns">7.3 Financial Inclusion Economic Returns</h3>
+<h3 id="113-financial-inclusion-economic-returns">11.3 Financial Inclusion Economic Returns</h3>
 <p>Research on financial inclusion consistently links account ownership to:</p>
 <ul>
 <li>Higher formal savings rates</li>
@@ -821,7 +1417,7 @@
 <li>Greater tax base documentation</li>
 </ul>
 <p>EDBP creates <strong>2 touchpoints per gift</strong> (sender + receiver), doubling onboarding potential vs. a unilateral government campaign.</p>
-<h3 id="74-fintech-banking-revenue-secondary-effects">7.4 Fintech &amp; Banking Revenue (Secondary Effects)</h3>
+<h3 id="114-fintech-banking-revenue-secondary-effects">11.4 Fintech &amp; Banking Revenue (Secondary Effects)</h3>
 <table>
 <thead>
 <tr>
@@ -849,8 +1445,8 @@
 </tbody>
 </table>
 <hr />
-<h2 id="8-monetary-policy-inflation-safeguards">8. Monetary Policy &amp; Inflation Safeguards</h2>
-<h3 id="81-the-closed-loop-principle">8.1 The Closed-Loop Principle</h3>
+<h2 id="12-monetary-policy-inflation-safeguards">12. Monetary Policy &amp; Inflation Safeguards</h2>
+<h3 id="121-the-closed-loop-principle">12.1 The Closed-Loop Principle</h3>
 <p>EDBP operates as a <strong>closed-loop monetary circuit:</strong></p>
 <ol>
 <li><strong>Purchase:</strong> Digital money leaves citizen wallet → enters government bond registry (SBP/CDNS account)</li>
@@ -858,7 +1454,7 @@
 <li><strong>Redemption:</strong> Government releases <strong>the same funds</strong> to recipient wallet via RAAST</li>
 </ol>
 <p><strong>Net change in M0 (currency in circulation):</strong> Negative or neutral — never positive.</p>
-<h3 id="82-distinction-from-money-printing">8.2 Distinction from Money Printing</h3>
+<h3 id="122-distinction-from-money-printing">12.2 Distinction from Money Printing</h3>
 <p>SBP defines currency printing drivers as:</p>
 <ul>
 <li>Replacement of soiled notes</li>
@@ -869,7 +1465,7 @@
 <blockquote>
 <p>Citizens temporarily buying a 30-day T-bill and gifting the claim to a relative who redeems it on Eid.</p>
 </blockquote>
-<h3 id="83-sbp-safeguards-recommended">8.3 SBP Safeguards (Recommended)</h3>
+<h3 id="123-sbp-safeguards-recommended">12.3 SBP Safeguards (Recommended)</h3>
 <table>
 <thead>
 <tr>
@@ -901,8 +1497,8 @@
 </tbody>
 </table>
 <hr />
-<h2 id="9-regulatory-legal-framework">9. Regulatory &amp; Legal Framework</h2>
-<h3 id="91-proposed-legal-basis">9.1 Proposed Legal Basis</h3>
+<h2 id="13-regulatory-legal-framework">13. Regulatory &amp; Legal Framework</h2>
+<h3 id="131-proposed-legal-basis">13.1 Proposed Legal Basis</h3>
 <table>
 <thead>
 <tr>
@@ -941,7 +1537,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="92-regulatory-architecture">9.2 Regulatory Architecture</h3>
+<h3 id="132-regulatory-architecture">13.2 Regulatory Architecture</h3>
 <pre><code>Finance Division (Policy Owner)
         │
         ├── CDNS (Issuance, Registry, Customer Service)
@@ -950,7 +1546,7 @@
         │
         └── SECP (if structured as marketable security — likely N/A for EDB)
 </code></pre>
-<h3 id="93-emi-bank-participation-framework">9.3 EMI &amp; Bank Participation Framework</h3>
+<h3 id="133-emi-bank-participation-framework">13.3 EMI &amp; Bank Participation Framework</h3>
 <p>Participating institutions should sign a <strong>Standard EDBP Participation Agreement</strong> covering:</p>
 <ul>
 <li>API integration specifications</li>
@@ -961,8 +1557,8 @@
 <li>Fee schedule (interchange capped by SBP)</li>
 </ul>
 <hr />
-<h2 id="10-technology-interoperability">10. Technology &amp; Interoperability</h2>
-<h3 id="101-core-technical-components">10.1 Core Technical Components</h3>
+<h2 id="14-technology-interoperability">14. Technology &amp; Interoperability</h2>
+<h3 id="141-core-technical-components">14.1 Core Technical Components</h3>
 <table>
 <thead>
 <tr>
@@ -1004,7 +1600,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="102-api-first-design-for-fintech-partners">10.2 API-First Design (For Fintech Partners)</h3>
+<h3 id="142-api-first-design-for-fintech-partners">14.2 API-First Design (For Fintech Partners)</h3>
 <p>Minimum viable API endpoints:</p>
 <pre><code>POST /edb/purchase        — Buy bonds from wallet
 POST /edb/gift            — Transfer to recipient
@@ -1013,7 +1609,7 @@ GET  /edb/balance         — Portfolio view
 GET  /edb/history         — Transaction log
 POST /edb/save            — Roll to savings (optional)
 </code></pre>
-<h3 id="103-security-standards">10.3 Security Standards</h3>
+<h3 id="143-security-standards">14.3 Security Standards</h3>
 <ul>
 <li>End-to-end encryption for bond transfer messages</li>
 <li>Multi-factor authentication for redemptions &gt; PKR 5,000</li>
@@ -1021,11 +1617,11 @@ POST /edb/save            — Roll to savings (optional)
 <li>Real-time fraud scoring (shared with existing wallet fraud engines)</li>
 <li>Immutable audit trail in CDNS registry</li>
 </ul>
-<h3 id="104-no-blockchain-required-phase-1">10.4 No Blockchain Required (Phase 1)</h3>
+<h3 id="144-no-blockchain-required-phase-1">14.4 No Blockchain Required (Phase 1)</h3>
 <p>Unlike Philippines GBonds (DLT registry), Pakistan can launch EDBP on <strong>centralized CDNS registry</strong> integrated with RAAST — faster, cheaper, regulator-native. DLT may be evaluated in Phase 3 if interoperability with regional markets is desired.</p>
 <hr />
-<h2 id="11-stakeholder-roles-commercial-model">11. Stakeholder Roles &amp; Commercial Model</h2>
-<h3 id="111-stakeholder-matrix">11.1 Stakeholder Matrix</h3>
+<h2 id="15-stakeholder-roles-commercial-model">15. Stakeholder Roles &amp; Commercial Model</h2>
+<h3 id="151-stakeholder-matrix">15.1 Stakeholder Matrix</h3>
 <table>
 <thead>
 <tr>
@@ -1087,7 +1683,7 @@ POST /edb/save            — Roll to savings (optional)
 </tr>
 </tbody>
 </table>
-<h3 id="112-fee-structure-recommended-zero-consumer-cost">11.2 Fee Structure (Recommended — Zero Consumer Cost)</h3>
+<h3 id="152-fee-structure-recommended-zero-consumer-cost">15.2 Fee Structure (Recommended — Zero Consumer Cost)</h3>
 <table>
 <thead>
 <tr>
@@ -1120,7 +1716,7 @@ POST /edb/save            — Roll to savings (optional)
 </tbody>
 </table>
 <hr />
-<h2 id="12-risk-assessment-mitigation">12. Risk Assessment &amp; Mitigation</h2>
+<h2 id="16-risk-assessment-mitigation">16. Risk Assessment &amp; Mitigation</h2>
 <table>
 <thead>
 <tr>
@@ -1205,7 +1801,7 @@ POST /edb/save            — Roll to savings (optional)
 </tbody>
 </table>
 <hr />
-<h2 id="13-implementation-roadmap-18-months">13. Implementation Roadmap (18 Months)</h2>
+<h2 id="17-implementation-roadmap-18-months">17. Implementation Roadmap (18 Months)</h2>
 <h3 id="phase-0-policy-design-months-13">Phase 0 — Policy Design (Months 1–3)</h3>
 <table>
 <thead>
@@ -1274,6 +1870,11 @@ POST /edb/save            — Roll to savings (optional)
 <td>Verification flow</td>
 </tr>
 <tr>
+<td><strong>Diaspora RDA/NRP purchase channel</strong></td>
+<td>SBP + banks</td>
+<td>Overseas Eidi purchase API</td>
+</tr>
+<tr>
 <td>Child wallet framework</td>
 <td>SBP + EMIs</td>
 <td>Supervised account spec</td>
@@ -1300,7 +1901,7 @@ POST /edb/save            — Roll to savings (optional)
 </tr>
 <tr>
 <td><strong>Channels</strong></td>
-<td>JazzCash + 2 banks</td>
+<td>JazzCash + 2 banks + 1 RDA bank</td>
 </tr>
 <tr>
 <td><strong>Cap</strong></td>
@@ -1330,8 +1931,12 @@ POST /edb/save            — Roll to savings (optional)
 </thead>
 <tbody>
 <tr>
-<td>All licensed EMIs + top 10 banks</td>
+<td>All licensed EMIs + top 10 banks + RDA partners</td>
 <td>Mandatory participation</td>
+</tr>
+<tr>
+<td>Diaspora marketing (GCC, UK, US)</td>
+<td>Embassy/ community partnerships</td>
 </tr>
 <tr>
 <td>National marketing campaign</td>
@@ -1358,8 +1963,8 @@ POST /edb/save            — Roll to savings (optional)
 <li>Regional export of model (Afghanistan, Bangladesh, Indonesia Eid markets)</li>
 </ul>
 <hr />
-<h2 id="14-kpis-monitoring-research-agenda">14. KPIs, Monitoring &amp; Research Agenda</h2>
-<h3 id="141-program-kpis">14.1 Program KPIs</h3>
+<h2 id="18-kpis-monitoring-research-agenda">18. KPIs, Monitoring &amp; Research Agenda</h2>
+<h3 id="181-program-kpis">18.1 Program KPIs</h3>
 <table>
 <thead>
 <tr>
@@ -1416,7 +2021,7 @@ POST /edb/save            — Roll to savings (optional)
 </tr>
 </tbody>
 </table>
-<h3 id="142-research-questions-for-academia">14.2 Research Questions for Academia</h3>
+<h3 id="182-research-questions-for-academia">18.2 Research Questions for Academia</h3>
 <ol>
 <li>Does digital Eidi increase child savings rates vs. cash Eidi?</li>
 <li>What is the gender differential in sender/receiver adoption?</li>
@@ -1425,37 +2030,37 @@ POST /edb/save            — Roll to savings (optional)
 <li>Can EDBP serve as a natural experiment for financial literacy outcomes?</li>
 </ol>
 <p><em>Suggested methodology: Difference-in-differences using pilot cities vs. control cities; partnership with SBP Research Department and LUMS/IBA/State Bank training institutes.</em></p>
-<h3 id="143-sbp-reporting-integration">14.3 SBP Reporting Integration</h3>
+<h3 id="183-sbp-reporting-integration">18.3 SBP Reporting Integration</h3>
 <p>EDBP metrics should be added to the <strong>Quarterly Payment Systems Review</strong> as a supplementary table — giving banking professionals and researchers standardized data series.</p>
 <hr />
-<h2 id="15-optional-product-extensions">15. Optional Product Extensions</h2>
-<h3 id="151-eidi-savings-mode">15.1 Eidi Savings Mode</h3>
+<h2 id="19-optional-product-extensions">19. Optional Product Extensions</h2>
+<h3 id="191-eidi-savings-mode">19.1 Eidi Savings Mode</h3>
 <ul>
 <li>Recipient opts to hold EDB beyond Eid</li>
 <li>Auto-converts to CDNS <strong>Short-Term Savings Certificate</strong> or profit-bearing Islamic instrument</li>
 <li>Teaches compound growth; supports NFIS savings goals</li>
 <li>Shariah-compliant variant essential for national adoption</li>
 </ul>
-<h3 id="152-donation-bonds">15.2 Donation Bonds</h3>
+<h3 id="192-donation-bonds">19.2 Donation Bonds</h3>
 <ul>
 <li>Sender purchases EDB → transfers to registered charity (Edhi, Shaukat Khanum, etc.)</li>
 <li>Charity redeems at par via RAAST bulk</li>
 <li>Tax receipt auto-generated (if registered with FBR)</li>
 </ul>
-<h3 id="153-family-group-eidi">15.3 Family Group Eidi</h3>
+<h3 id="193-family-group-eidi">19.3 Family Group Eidi</h3>
 <ul>
 <li>Multiple family members contribute to a pooled EDB</li>
 <li>Recipient receives single "Family Eidi" gift card</li>
 <li>Strengthens digital engagement across generations</li>
 </ul>
-<h3 id="154-corporate-eidi-program">15.4 Corporate Eidi Program</h3>
+<h3 id="194-corporate-eidi-program">19.4 Corporate Eidi Program</h3>
 <ul>
 <li>Employers distribute EDBs to employees' children</li>
 <li>Bulk issuance API for HR systems</li>
 <li>B2B channel for rapid volume scaling</li>
 </ul>
 <hr />
-<h2 id="16-policy-recommendations">16. Policy Recommendations</h2>
+<h2 id="20-policy-recommendations">20. Policy Recommendations</h2>
 <h3 id="for-government-ministry-of-finance">For Government (Ministry of Finance)</h3>
 <ol>
 <li><strong>Approve EDBP in principle</strong> as a flagship NFIS 2024–28 initiative</li>
@@ -1489,12 +2094,413 @@ POST /edb/save            — Roll to savings (optional)
 <li><strong>Track gender and youth inclusion outcomes</strong> as NFIS contribution evidence</li>
 </ol>
 <hr />
-<h2 id="17-conclusion">17. Conclusion</h2>
+<h2 id="21-conclusion">21. Conclusion</h2>
 <p>The Eidi Digital Bond Program sits at a rare intersection: <strong>cultural tradition, fiscal discipline, financial inclusion, and existing digital infrastructure</strong> — all aligned in the same direction.</p>
 <p>Pakistan has already built the rails (RAAST), the wallets (80M+ accounts), the regulatory framework (Digital Prize Bonds, EMI regulation, NFIS 2024–28), and the policy ambition (75% inclusion, Go Cashless). What has been missing is a <strong>culturally native product</strong> that gives citizens a reason to switch — not because government demands it, but because <strong>giving Eidi digitally is easier, safer, and more meaningful than standing in an ATM line</strong>.</p>
 <p>EDBP is that product.</p>
 <p>For banking professionals, it represents a scalable, low-risk, high-volume seasonal product with clear interchange economics. For government, it delivers measurable cost savings, documented economic activity, and temporary financing — without inflation. For student researchers, it offers a natural experiment at national scale on financial behavior, gender inclusion, and seasonal liquidity. For families, it preserves Eidi while giving children their first step into the formal economy.</p>
-<p><strong>The infrastructure is built. The culture is ready. The economics are favorable. The time to pilot is now.</strong></p>
+<p><strong>The infrastructure is built. The culture is ready. The diaspora is connected. The economics are favorable. The time to pilot is now.</strong></p>
+<hr />
+<h2 id="22-data-sources-methodology">22. Data Sources &amp; Methodology</h2>
+<p>This section documents <strong>every category of statistic</strong> used in this paper, how it was obtained, and whether it is <strong>published data</strong> or a <strong>model estimate</strong>.</p>
+<h3 id="221-data-classification">22.1 Data Classification</h3>
+<table>
+<thead>
+<tr>
+<th>Label</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Published</strong></td>
+<td>Sourced from regulator, government, bank, news outlet, or academic paper</td>
+</tr>
+<tr>
+<td><strong>Model estimate</strong></td>
+<td>Projection calculated by the authors from published inputs</td>
+</tr>
+<tr>
+<td><strong>Program design</strong></td>
+<td>Policy parameter proposed for EDBP — not external data</td>
+</tr>
+</tbody>
+</table>
+<h3 id="222-published-statistics-key-figures-sources">22.2 Published Statistics — Key Figures &amp; Sources</h3>
+<h4 id="raast-digital-payments">RAAST &amp; Digital Payments</h4>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Value</th>
+<th>Year</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RAAST transactions (FY25)</td>
+<td>1.27 billion</td>
+<td>FY 2024–25</td>
+<td><a href="https://www.inp.net.pk/news-detail/inp-wealthpk/raast-handles-pkr-44-trillion-as-pakistans-instant-payment-network-scales-nationwide">INP, 2025</a></td>
+</tr>
+<tr>
+<td>RAAST value (FY25)</td>
+<td>PKR 29.6 trillion</td>
+<td>FY 2024–25</td>
+<td>Same</td>
+</tr>
+<tr>
+<td>Cumulative RAAST transactions</td>
+<td>1.9 billion</td>
+<td>Inception–Jun 2025</td>
+<td>Same</td>
+</tr>
+<tr>
+<td>Cumulative RAAST value</td>
+<td>PKR 44.3 trillion</td>
+<td>Inception–Jun 2025</td>
+<td>Same</td>
+</tr>
+<tr>
+<td>Registered Raast IDs</td>
+<td>45 million</td>
+<td>Jun 2025</td>
+<td>Same</td>
+</tr>
+<tr>
+<td>Q2 FY25 RAAST volume</td>
+<td>PKR 6.4 trillion</td>
+<td>Q2 FY25</td>
+<td><a href="https://www.dawn.com/news/1905376">Dawn, 2025</a></td>
+</tr>
+<tr>
+<td>RAAST zero fees / PKR 250K limit</td>
+<td>Policy</td>
+<td>Current</td>
+<td><a href="https://www.samba.com.pk/samba/banking-detail/raast">Samba Bank RAAST</a></td>
+</tr>
+<tr>
+<td>Mobile banking growth</td>
+<td>62%</td>
+<td>Q2 2025</td>
+<td>Dawn, 2025</td>
+</tr>
+</tbody>
+</table>
+<h4 id="financial-inclusion">Financial Inclusion</h4>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Value</th>
+<th>Year</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Account ownership</td>
+<td>16% → 64%</td>
+<td>2015 → 2023</td>
+<td><a href="https://www.brecorder.com/news/40342500">Business Recorder, Jan 2025</a></td>
+</tr>
+<tr>
+<td>Inclusion target</td>
+<td>75% by 2028</td>
+<td>NFIS 2024–28</td>
+<td>Same</td>
+</tr>
+<tr>
+<td>Gender gap</td>
+<td>34% → 25% target</td>
+<td>2023 baseline</td>
+<td>Same</td>
+</tr>
+<tr>
+<td>Cash preference barrier</td>
+<td>Qualitative</td>
+<td>NFIS 2024–28</td>
+<td>Same</td>
+</tr>
+</tbody>
+</table>
+<h4 id="eid-economy-seasonal-cash">Eid Economy &amp; Seasonal Cash</h4>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Value</th>
+<th>Year</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fresh notes disbursed</td>
+<td>PKR 380 billion (peak)</td>
+<td>2017</td>
+<td><a href="https://www.dawn.com/news/1341892">Dawn, 2017</a></td>
+</tr>
+<tr>
+<td>SBP 8877 SMS notes</td>
+<td>~PKR 30 billion</td>
+<td>2017</td>
+<td>Dawn, 2017</td>
+</tr>
+<tr>
+<td>Bank counter + ATM notes</td>
+<td>~PKR 340 billion</td>
+<td>2017</td>
+<td>Dawn, 2017</td>
+</tr>
+<tr>
+<td>Pre-Eid withdrawals</td>
+<td>~PKR 250 billion</td>
+<td>2017 est.</td>
+<td>Dawn, 2017</td>
+</tr>
+<tr>
+<td>Eid remittance inflows</td>
+<td>~$1.8 billion</td>
+<td>2016–17 est.</td>
+<td>Dawn, 2017</td>
+</tr>
+<tr>
+<td>Deposit volatility (Ramadan/Eid)</td>
+<td>Documented</td>
+<td>2002–2010</td>
+<td><a href="https://www.phd-finance.uzh.ch/dam/jcr:1c25e3b4-75d7-441f-9078-4b71e63e613c/seminar_contract_theory_paper_Limodio.pdf">Limodio, UZH</a></td>
+</tr>
+<tr>
+<td>Pre-Eid withdrawal surge</td>
+<td>Qualitative</td>
+<td>2025</td>
+<td><a href="https://www.dawn.com/news/1916220">Dawn, 2025</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="currency-printing">Currency &amp; Printing</h4>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Value</th>
+<th>Year</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PKR 10 note printing cost</td>
+<td>PKR 8–10B/year</td>
+<td>~2025–26</td>
+<td><a href="https://tribune.com.pk/story/2594680/10-rupee-coins-could-save-billions-new-report-recommends">Tribune</a></td>
+</tr>
+<tr>
+<td>PKR 10 notes share of printing</td>
+<td>~35%</td>
+<td>~2025–26</td>
+<td>Tribune; <a href="https://en.dailypakistan.com.pk/26-Feb-2026/10-rupee-note-to-be-replaced-with-coin-in-gradual-phase-in-pakistan">Daily Pakistan, Feb 2026</a></td>
+</tr>
+<tr>
+<td>Coin transition savings</td>
+<td>PKR 40–50B over 10 years</td>
+<td>2026 proj.</td>
+<td>Daily Pakistan, Feb 2026</td>
+</tr>
+<tr>
+<td>Currency in circulation</td>
+<td>~PKR 11 trillion</td>
+<td>2026 est.</td>
+<td>Daily Pakistan, Feb 2026</td>
+</tr>
+</tbody>
+</table>
+<h4 id="fintech-wallets">Fintech &amp; Wallets</h4>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Value</th>
+<th>Year</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total wallet accounts</td>
+<td>80M+</td>
+<td>2025</td>
+<td><a href="https://paymentbrief.com/markets/pakistan/">PaymentBrief</a></td>
+</tr>
+<tr>
+<td>JazzCash accounts / MAU</td>
+<td>40M+ / 20.6M</td>
+<td>2025</td>
+<td><a href="https://jazz.com.pk/media-center/detail/jazz-delivers-strong-2025-growth-as-digital-services-and-network-investments-accelerate-scale">Jazz, Nov 2025</a></td>
+</tr>
+<tr>
+<td>JazzCash GTV</td>
+<td>PKR 3.9 trillion</td>
+<td>9M 2025</td>
+<td>Jazz, Nov 2025</td>
+</tr>
+<tr>
+<td>Easypaisa users / agents</td>
+<td>35M+ / 170K</td>
+<td>2025</td>
+<td>PaymentBrief; <a href="https://itslift.com/insights/jazzcash-vs-easypaisa-payment-integration">LIFT</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="diaspora-remittances">Diaspora &amp; Remittances</h4>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Value</th>
+<th>Year</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Overseas Pakistanis</td>
+<td>~9–10 million</td>
+<td>Est.</td>
+<td><a href="https://www.beoe.gov.pk">Bureau of Emigration</a>; diaspora studies</td>
+</tr>
+<tr>
+<td>Annual remittances</td>
+<td>$30+ billion</td>
+<td>FY24–25</td>
+<td><a href="https://www.sbp.org.pk">SBP remittance reports</a></td>
+</tr>
+<tr>
+<td>Ramadan remittance for Eid</td>
+<td>~60% of inflows</td>
+<td>2016–17 est.</td>
+<td>Dawn, 2017</td>
+</tr>
+</tbody>
+</table>
+<h4 id="global-benchmarks">Global Benchmarks</h4>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Value</th>
+<th>Year</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Global tokenized bond issuance</td>
+<td>$3.7 billion</td>
+<td>2024</td>
+<td><a href="https://blogs.worldbank.org/en/psd/digital-tokenized-bonds--capitalizing-on-future-potential">World Bank</a></td>
+</tr>
+<tr>
+<td>Philippines GBonds minimum</td>
+<td>PHP 500</td>
+<td>2024–25</td>
+<td><a href="https://www.bworldonline.com/bloomberg/2024/12/20/642682/philippines-pushes-to-expand-bond-market-with-9-debt-offer/">BusinessWorld, Dec 2024</a></td>
+</tr>
+<tr>
+<td>GCash users</td>
+<td>94 million</td>
+<td>2024</td>
+<td>BusinessWorld, Dec 2024</td>
+</tr>
+</tbody>
+</table>
+<h3 id="223-model-estimates-no-single-official-source">22.3 Model Estimates (No Single Official Source)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Value</th>
+<th>Methodology</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fresh-note demand displaced</td>
+<td>PKR 50–150B/Eid</td>
+<td>% of historical fresh-note flows (Dawn 2017)</td>
+</tr>
+<tr>
+<td>Printing/logistics savings</td>
+<td>PKR 7–15B/year</td>
+<td>PSPC costs + assumed 25–40% Eid share</td>
+</tr>
+<tr>
+<td>New account openings (pilot)</td>
+<td>2–5M/Eid</td>
+<td>Assumed conversion rate</td>
+</tr>
+<tr>
+<td>Govt financing float</td>
+<td>PKR 30–80B</td>
+<td>Purchase-window scenario modelling</td>
+</tr>
+<tr>
+<td>Diaspora EDB volume</td>
+<td>PKR 18–60B</td>
+<td>5–20% adoption × avg bond value</td>
+</tr>
+<tr>
+<td>Cost avoidance (Year 1)</td>
+<td>PKR 4.7–8.5B</td>
+<td>Displacement % assumptions (§11.1)</td>
+</tr>
+<tr>
+<td>KPI targets</td>
+<td>Various</td>
+<td>Program design parameters</td>
+</tr>
+</tbody>
+</table>
+<h3 id="224-primary-official-portals-for-updated-data">22.4 Primary Official Portals for Updated Data</h3>
+<table>
+<thead>
+<tr>
+<th>Institution</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>State Bank of Pakistan</td>
+<td><a href="https://www.sbp.org.pk">https://www.sbp.org.pk</a></td>
+</tr>
+<tr>
+<td>SBP Payment Systems Review</td>
+<td><a href="https://www.sbp.org.pk/psr">https://www.sbp.org.pk/psr</a></td>
+</tr>
+<tr>
+<td>CDNS / National Savings</td>
+<td><a href="https://savings.gov.pk">https://savings.gov.pk</a></td>
+</tr>
+<tr>
+<td>Finance Division (SROs)</td>
+<td><a href="https://www.finance.gov.pk">https://www.finance.gov.pk</a></td>
+</tr>
+<tr>
+<td>SBP RDA (diaspora)</td>
+<td><a href="https://www.sbp.org.pk/rda">https://www.sbp.org.pk/rda</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="225-limitations-caveats">22.5 Limitations &amp; Caveats</h3>
+<ol>
+<li><strong>No official Eid withdrawal time series</strong> — SBP does not publish real-time Eid-specific data; historical press estimates (2017) are the best public benchmarks.</li>
+<li><strong>Model estimates are illustrative</strong> — all projections require validation through a formal feasibility study and pilot telemetry.</li>
+<li><strong>Diaspora figures vary</strong> — overseas Pakistani population estimates range by source; remittance data is official (SBP) but Eid-specific allocation is estimated.</li>
+<li><strong>This paper is independent</strong> — it does not represent SBP, MoF, or any commercial institution.</li>
+</ol>
 <hr />
 <h2 id="annexes">Annexes</h2>
 <h3 id="annex-a-glossary">Annex A — Glossary</h3>
@@ -1610,6 +2616,11 @@ POST /edb/save            — Roll to savings (optional)
 </ul>
 <hr />
 <h2 id="references-sources">References &amp; Sources</h2>
+<h3 id="pakistan-diaspora-remittances">Pakistan — Diaspora &amp; Remittances</h3>
+<ul>
+<li><a href="https://www.sbp.org.pk/rda">SBP — Roshan Digital Account (RDA)</a> — Overseas Pakistani account framework</li>
+<li><a href="https://www.dawn.com/news/1341892">Dawn: The expanding Eid economy</a> — Eid remittance inflows (~$1.8B, 2016–17 est.)</li>
+</ul>
 <h3 id="pakistan-payments-financial-inclusion">Pakistan — Payments &amp; Financial Inclusion</h3>
 <ul>
 <li><a href="https://www.brecorder.com/news/40342500">SBP National Financial Inclusion Strategy 2024–28</a> — 75% inclusion target; cash culture barrier</li>
@@ -1660,7 +2671,7 @@ POST /edb/save            — Roll to savings (optional)
 <hr />
 <p><strong>Disclaimer:</strong> This white paper is an independent policy analysis prepared for discussion purposes. It does not represent the views of the State Bank of Pakistan, Government of Pakistan, or any commercial institution. All projections are estimates based on publicly available data and should be validated through formal feasibility study before implementation.</p>
 <hr />
-<p><em>© 2026 — Eidi Digital Bond Program White Paper v1.0</em><br />
+<p><em>© 2026 — Eidi Digital Bond Program White Paper v1.1</em><br />
 <em>For inquiries: Policy implementation via Ministry of Finance / SBP Payments Systems Department</em></p>
   </main>
 

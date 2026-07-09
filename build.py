@@ -31,8 +31,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         <p class="subtitle">Trend Analysis · Policy Framework · Implementation Roadmap</p>
       </div>
       <div class="header-meta">
-        <span>Version 1.0</span>
-        <span>June 2026</span>
+        <span>Version 1.1</span>
+        <span>July 2026</span>
         <a class="btn" href="white-paper.pdf" download>Download PDF</a>
       </div>
     </div>
@@ -41,12 +41,12 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <nav class="toc-bar" aria-label="On this page">
     <div class="container">
       <span class="toc-label">Jump to:</span>
-      <a href="#executive-summary">Executive Summary</a>
-      <a href="#1-introduction--cultural-economic-context">Introduction</a>
-      <a href="#3-global--regional-trend-analysis">Trends</a>
-      <a href="#13-implementation-roadmap-18-months">Roadmap</a>
-      <a href="#16-policy-recommendations">Policy</a>
-      <a href="#references--sources">Sources</a>
+      <a href="#1-the-problem-we-are-solving">The Problem</a>
+      <a href="#2-executive-summary">Summary</a>
+      <a href="#7-who-benefits--stakeholder-value-propositions">Who Benefits</a>
+      <a href="#10-overseas-pakistanis--diaspora-eidi">Diaspora</a>
+      <a href="#17-implementation-roadmap-18-months">Roadmap</a>
+      <a href="#22-data-sources--methodology">Data Sources</a>
     </div>
   </nav>
 
