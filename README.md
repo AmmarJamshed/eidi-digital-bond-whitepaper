@@ -4,15 +4,16 @@ Public policy white paper on the **Eidi Digital Bond Program (EDBP)**: a proposa
 
 ## Live site
 
-Published via GitHub Pages.
+https://ammarjamshed.github.io/eidi-digital-bond-whitepaper/
+
+**Version:** 1.1 (July 2026)
 
 ## Contents
 
-- Trend analysis (Pakistan + global)
-- Economic and fiscal impact model
-- Regulatory and technical framework
-- 18-month implementation roadmap
-- KPIs and policy recommendations
+- Upfront problem statement & behavioural economics of Eid cash
+- Diaspora / overseas Pakistani Eidi use case
+- Expanded stakeholder value propositions
+- Data Sources & Methodology annex
 
 ## Files
 
