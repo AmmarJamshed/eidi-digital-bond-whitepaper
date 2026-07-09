@@ -2,7 +2,7 @@
 ## White Paper: Trend Analysis, Policy Framework & Implementation Roadmap
 
 **Document Type:** Policy & Innovation White Paper  
-**Version:** 1.1  
+**Version:** 1.2  
 **Date:** July 2026  
 **Classification:** Public — For Policy, Banking, Research & Implementation Use  
 
@@ -1276,6 +1276,6 @@ The Eidi Digital Bond Program emerged from observing a recurring gap in Pakistan
 
 ---
 
-*© 2026 Muhammad Ammar Jamshed — Eidi Digital Bond Program White Paper v1.1*  
+*© 2026 Muhammad Ammar Jamshed — Eidi Digital Bond Program White Paper v1.2*  
 *Author:* [Muhammad Ammar Jamshed on LinkedIn](https://www.linkedin.com/in/goto-resumemuhammad-ammar-jamshed-029280145/)  
 *For policy discussion:* independent submission for public and stakeholder review

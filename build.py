@@ -29,12 +29,13 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         <span class="brand-badge">Policy White Paper</span>
         <h1>Eidi Digital Bond Program</h1>
         <p class="subtitle">Trend Analysis · Policy Framework · Implementation Roadmap</p>
+        <p class="header-author">By <a href="https://www.linkedin.com/in/goto-resumemuhammad-ammar-jamshed-029280145/" target="_blank" rel="noopener noreferrer">Muhammad Ammar Jamshed</a> <span class="header-author-note">— Independent author (not affiliated with any organisation in this work)</span></p>
       </div>
       <div class="header-meta">
-        <span>Version 1.1</span>
+        <span>Version 1.2</span>
         <span>July 2026</span>
-        <span class="author-line">By <a href="https://www.linkedin.com/in/goto-resumemuhammad-ammar-jamshed-029280145/" target="_blank" rel="noopener noreferrer">Muhammad Ammar Jamshed</a> · Independent author</span>
         <a class="btn" href="white-paper.pdf" download>Download PDF</a>
+        <a class="btn btn-secondary" href="#23-about-the-author">About the Author</a>
       </div>
     </div>
   </header>
@@ -51,6 +52,20 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       <a href="#22-data-sources--methodology">Data Sources</a>
     </div>
   </nav>
+
+  <aside class="author-banner" aria-label="Author information">
+    <div class="container author-banner-inner">
+      <div class="author-banner-text">
+        <span class="author-banner-eyebrow">Written by</span>
+        <strong class="author-banner-name">Muhammad Ammar Jamshed</strong>
+        <span class="author-banner-meta">Independent researcher & policy author · No organisational affiliation</span>
+      </div>
+      <div class="author-banner-links">
+        <a class="author-banner-link" href="https://www.linkedin.com/in/goto-resumemuhammad-ammar-jamshed-029280145/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+        <a class="author-banner-link author-banner-link-secondary" href="#23-about-the-author">Read About the Author</a>
+      </div>
+    </div>
+  </aside>
 
   <main class="container article">
     {content}
